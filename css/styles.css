@@ -1,3 +1,10 @@
+* {
+	border: 0;
+	margin: 0;
+	outline: none;
+	padding: 0;
+}
+
 body {
   line-height: 1;
   padding-top: 50px;
@@ -39,6 +46,8 @@ nav {
   display: inline-block;
   margin-left: 10%;
 }
+
+
 
 a.logo span:first-child {
   left: 3px;
@@ -241,12 +250,12 @@ padding: 3% 0;
 }
 
 #social > div {
-margin: o auto;
+margin: 0 auto;
 width: 80%;
 }
 
 #social h2 {
-font-family: 'Teko',sans-serif;
+font-family: 'Teko', sans-serif;
 font-size: 30px;
 margin: 0;
 }
@@ -261,15 +270,15 @@ font-size: 14px;
 margin: 0 0 1%;
 }
 
-#social-icons > a {
+.social-icons > a {
 background-color: #30282a;
-color: #fff;
+color: #fafafa;
 display: inline-block;
 padding: 40px 74px;
 text-align: center;
 }
 
-#social-icons > a:nth-child(n+2) {
+.social-icons > a:nth-child(n+2) {
   margin-left: 2%;
 }
 
@@ -289,6 +298,7 @@ text-align: center;
 
 #contact i {
   margin: 1% 0;
+  text-align: center;
 }
 #contact address {
   font-size: 14px;
